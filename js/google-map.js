@@ -1,4 +1,4 @@
-var position = { lat: 40.730610 , lng: -73.935242 }
+var position = { lat: 28.7174761 , lng: 77.17596730000002 }
 
 // Map style
 var style = [
@@ -194,7 +194,7 @@ var style = [
 // Set google map options
 var options = {
 	center: position,
-	zoom: 14,
+	zoom: 17,
 	mapTypeControl: false,
 	streetViewControl: false,
 	scrollwheel: false,
