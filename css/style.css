@@ -675,7 +675,7 @@ textarea.input {
 }
 
 .event+.event {
-  margin-top: 60px;
+  margin-top: 25px;
 }
 
 .event:after {
@@ -689,15 +689,15 @@ textarea.input {
 }
 
 .event:last-child:after {
-  height: 60px;
+  height: 40px;
 }
 
 .event+.event:before {
   content: "";
   position: absolute;
   left: 60px;
-  height: 60px;
-  top: -60px;
+  height: 40px;
+  top: -40px;
   width: 4px;
   background-color: #dd0a37;
 }
@@ -716,7 +716,7 @@ textarea.input {
 .event .event-hour {
   position: absolute;
   left: 62px;
-  top: 60px;
+  top: 40px;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -755,6 +755,7 @@ textarea.input {
 
 .event .event-content {
   padding-left: 160px;
+  padding-top: 15px;
   min-height: 120px;
 }
 
